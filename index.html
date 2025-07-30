@@ -1,41 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <title>inikitenko</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSQWKFFC6L"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WSQWKFFC6L');
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ivan Nikitenko | QA Engineer</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="description" content="QA Automation Engineer portfolio site of Ivan Nikitenko" />
+  <link rel="icon" type="image/png" href="./images/favicon.png" />
 </head>
 <body>
-   <header>
-        <a class="language" href="./pages/cz.html">CZ</a>     
-        <img  class="avatar" src="./images/avatar.png" alt="My avatar" />
-        <h3 class="nickname">inikitenko</h3>
-   </header>
-   <main>
-        <h1 class="heading">Ivan Nikitenko</h1>
-        <p class="description text">Junior QA Automation Engineer</p> 
-        <ul class="links">
-            <li><a href="https://github.com/SeniorEU" target="_blank">
-                <img src="./images/github.svg" alt="GitHab link">
-            </a></li>
-            <li><a href="https://www.linkedin.com/in/ivannikitenko/" target="_blank">
-            <img src="./images/linkedin.svg" alt="LinkedIn link">
-            </a></li>
-        </ul>
-        <a class="large-button" href="mailto: ivan.nikitenko@gmail.com">Mail me</a>
-   </main>
-   <footer class="text">Made by inikitenko</footer>
+  <header>
+    <nav class="navbar" style="flex-direction: column; align-items: flex-start; gap: 10px;">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="language-switch" href="./pages/cz.html">CZ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="avatar" style="max-width: 300px; height: auto;" src="./images/avatar.png" alt="My avatar" />
+      <h1>Ivan Nikitenko</h1>
+      <p class="subtitle">Junior QA Automation Engineer</p>
+      <div class="hero-buttons">
+        <a class="large-button" href="mailto:ivan.nikitenko@gmail.com">Mail me</a>
+        <a class="large-button secondary" href="./cv/Ivan_Nikitenko_QA_Engineer_CV.pdf" download target="_blank">Download CV</a>
+      </div>
+      <ul class="links">
+        <li><a href="https://github.com/SeniorEU" target="_blank" aria-label="GitHub"><img src="./images/github.svg" alt="GitHub" /></a></li>
+        <li><a href="https://www.linkedin.com/in/ivannikitenko/" target="_blank" aria-label="LinkedIn"><img src="./images/linkedin.svg" alt="LinkedIn" /></a></li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Junior QA Engineer (Manual/Automated Testing) based in Czech Republic, with strong expertise in test documentation, UI/API testing, and agile collaboration. 1+ years of hands-on experience testing web and mobile apps using functional, exploratory, and usability approaches. Currently advancing automation skills with Python (Selenium, Pytest) and JavaScript (Playwright). Holds a degree in Electromechanical Automation Systems and several QA certifications.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Automation</h3>
+          <ul>
+            <li>Python / Pytest</li>
+            <li>Selenium / WebDriver</li>
+            <li>Playwright</li>
+          </ul>
+        </div>
+        <div>
+          <h3>API / Tools</h3>
+          <ul>
+            <li>Postman / API Testing</li>
+            <li>SQL / SQLite / MS SQL</li>
+            <li>Git / GitHub / Azure DevOps</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Management</h3>
+          <ul>
+            <li>Jira / TestRail</li>
+            <li>Agile / Scrum / Kanban</li>
+            <li>Test Plans / Test Cases / Bug Reports</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="experience-list">
+        <li><strong>QA Manual Engineer, Journals VŠTE ČB</strong> (Jun 2025 – Present)<br />
+        Testing academic journal portal (OJS), UI and responsive layout checks, localization, and formal test documentation.</li>
+        <li><strong>QA Manual Engineer, Fwollo LLC</strong> (Mar 2025 – Present)<br />
+        Testing Pulse Up! mobile/web apps, focusing on functional, UI/UX, regression and localization testing across iOS and Android.</li>
+        <li><strong>QA Manual Engineer, QALight Outsource</strong> (Sep 2024 – Jun 2025)<br />
+        Manual testing of responsive web and mobile apps. Created over 50 test artifacts and performed 60+ functional/usability tests.</li>
+        <li><strong>Head of Technical Quality & Delivery, Argus/Industrial Equipment</strong> (2007–2024)<br />
+        17+ years in quality control, ISO/GOST documentation, and international distribution. Led QA and logistics for Lincoln Electric, Yamabiko Corp.</li>
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Coming soon — selected test cases, UI/API automation scripts, and bug reports from real-world projects (Pulse Up, Journals VSTE CB).</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:ivan.nikitenko@gmail.com">ivan.nikitenko@gmail.com</a><br />
+      <strong>Phone:</strong> +420 728-935-848<br />
+      <strong>Location:</strong> Czech Republic (České Budějovice / Praha), Office or Remote</p>
+      <form class="contact-form" action="https://formspree.io/f/mwkdvqzj" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Ivan Nikitenko &copy; 2025</p>
+  </footer>
 </body>
 </html>

@@ -1,41 +1,116 @@
 <!DOCTYPE html>
-<html lang="cz">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <title>inikitenko</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSQWKFFC6L"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WSQWKFFC6L');
-</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ivan Nikitenko | QA Inženýr</title>
+  <link rel="stylesheet" href="../css/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="description" content="Portfolio QA Automation inženýr Ivan Nikitenko v Češtině" />
 </head>
 <body>
-   <header>
-        <a class="language" href="./../index.html">EN</a>
-        <img class="avatar" src="./../images/avatar.png" alt="Můj avatar" />
-        <h3 class="nickname">inikitenko</h3>
-   </header>
-   <main>
-        <h1 class="heading">Ivan Nikitenko</h1>
-        <p class="description text">Juniorní inženýr automatizace řízení kvality</p> 
-        <ul class="links">
-            <li><a href="https://github.com/SeniorEU" target="_blank">
-                <img src="./../images/github.svg" alt="GitHab link">
-            </a></li>
-            <li><a href="https://www.linkedin.com/in/ivannikitenko/" target="_blank">
-            <img src="./../images/linkedin.svg" alt="LinkedIn link">
-            </a></li>
-        </ul>
-        <a class="large-button" href="mailto: ivan.nikitenko@gmail.com">Napište e-mail</a>
-   </main>
-   <footer class="text">Vytvořil: inikitenko</footer> 
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">O mě</a></li>
+        <li><a href="#skills">Dovednosti</a></li>
+        <li><a href="#experience">Zkušenosti</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+      <a class="language-switch" href="../index.html">EN</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="avatar" src="../images/avatar.png" alt="Můj portrét" />
+      <h1>Ivan Nikitenko</h1>
+      <p class="subtitle">Junior QA Automation Inženýr</p>
+      <div class="hero-buttons">
+        <a class="large-button" href="mailto:ivan.nikitenko@gmail.com">Napsat e-mail</a>
+        <a class="large-button secondary" href="../cv/Ivan_Nikitenko_QA_Engineer_CV.pdf" download target="_blank">Stáhnout CV</a>
+      </div>
+      <ul class="links">
+        <li><a href="https://github.com/SeniorEU" target="_blank" aria-label="GitHub"><img src="../images/github.svg" alt="GitHub" /></a></li>
+        <li><a href="https://www.linkedin.com/in/ivannikitenko/" target="_blank" aria-label="LinkedIn"><img src="../images/linkedin.svg" alt="LinkedIn" /></a></li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>O mě</h2>
+      <p>Junior QA Inženýr (manuální / automatizované testování) se základnou v České republice. Zkušenosti s testováním webových i mobilních aplikací, tvorbou testovací dokumentace, regresním a lokalizačním testováním. Pokračující rozvoj v oblasti automatizace (Python, Selenium, Pytest, Playwright).</p>
+    </section>
+
+    <section id="skills">
+      <h2>Dovednosti</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Automatizace</h3>
+          <ul>
+            <li>Python / Pytest</li>
+            <li>Selenium / WebDriver</li>
+            <li>Playwright</li>
+          </ul>
+        </div>
+        <div>
+          <h3>API a nástroje</h3>
+          <ul>
+            <li>Postman / API testování</li>
+            <li>SQL / SQLite / MS SQL</li>
+            <li>Git / GitHub / Azure DevOps</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Management</h3>
+          <ul>
+            <li>Jira / TestRail</li>
+            <li>Agile / Scrum / Kanban</li>
+            <li>Test plány / případy / reporty</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Zkušenosti</h2>
+      <ul class="experience-list">
+        <li><strong>QA Inženýr, Journals VŠTE ČB</strong> (2025–současnost)<br />
+        Testování webového portálu akademických časopisů, kontrola UI, odpovědnosti a lokalizace.</li>
+        <li><strong>QA Inženýr, Fwollo</strong> (2025–současnost)<br />
+        Testování mobilní a webové aplikace Pulse Up!</li>
+        <li><strong>QA Inženýr, QALight Outsource</strong> (2024–2025)<br />
+        Manuální testování mobilních a webových aplikací, tvorba testovací dokumentace.</li>
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Připravuje se — ukázky testovacích případů, automatizace a bug reportů.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p><strong>Email:</strong> <a href="mailto:ivan.nikitenko@gmail.com">ivan.nikitenko@gmail.com</a><br />
+      <strong>Telefon:</strong> +420 728 935 848<br />
+      <strong>Lokalita:</strong> Česká republika (Praha / České Budějovice)</p>
+      <form class="contact-form" action="https://formspree.io/f/mwkdvqzj" method="POST">
+        <input type="text" name="name" placeholder="Vaše jméno" required />
+        <input type="email" name="email" placeholder="Váš e-mail" required />
+        <textarea name="message" placeholder="Vaše zpráva" required></textarea>
+        <button type="submit">Odeslat</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Vytvořil Ivan Nikitenko &copy; 2025</p>
+  </footer>
 </body>
 </html>
