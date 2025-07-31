@@ -117,6 +117,12 @@ h1 {
     margin-top: 10px;
 }
 
+.hero-buttons a {
+  min-width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
 .large-button {
     padding: 12px 24px;
     background-color: var(--large-color);
@@ -207,6 +213,7 @@ section {
 }
 
 .contact-form input, .contact-form textarea {
+    box-sizing: border-box;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -215,15 +222,17 @@ section {
 }
 
 .contact-form button {
+    box-sizing: border-box;
     padding: 10px;
     border: none;
-    background-color: #0077b6;
+    background-color: var(--large-color);
     color: white;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 input, textarea, button {
