@@ -5,6 +5,9 @@
     --link-color: #0984e3;
     --link-color-hover: #74b9ff;
     --accent-color: #55efc4;
+    --large-color: #0077b6;
+    --large-button-color: #0096c7;
+    --secondary-color: #495057;
     --gap: 15px;
 }
 
@@ -116,7 +119,7 @@ h1 {
 
 .large-button {
     padding: 12px 24px;
-    background-color: #0077b6;
+    background-color: var(--large-color);
     color: white;
     border-radius: 25px;
     border: none;
@@ -128,16 +131,16 @@ h1 {
 }
 
 .large-button:hover {
-    background-color: #0096c7;
+    background-color: var(--large-button-color);
 }
 
 .large-button.secondary {
-    background-color: #0077b6;
+    background-color: var(--large-color);
     color: white;
 }
 
 .large-button.secondary:hover {
-    background-color: #495057;
+    background-color: var(--secondary-color);
 }
 
 .links {
@@ -203,8 +206,7 @@ section {
     margin: 0 auto;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input, .contact-form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -223,6 +225,12 @@ section {
     font-size: 16px;
     width: 100%;
 }
+
+input, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
 
 footer {
     margin-top: 40px;
