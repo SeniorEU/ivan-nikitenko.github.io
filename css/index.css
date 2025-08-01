@@ -8,6 +8,7 @@
     --large-color: #0077b6;
     --large-button-color: #0096c7;
     --secondary-color: #495057;
+    --h3-color: #2d3436
     --gap: 15px;
 }
 
@@ -126,7 +127,7 @@ h1 {
 .large-button {
     padding: 12px 24px;
     background-color: var(--large-color);
-    color: white;
+    color: var(--main-color);
     border-radius: 25px;
     border: none;
     font-weight: bold;
@@ -142,7 +143,7 @@ h1 {
 
 .large-button.secondary {
     background-color: var(--large-color);
-    color: white;
+    color: var(--main-color);
 }
 
 .large-button.secondary:hover {
@@ -185,7 +186,7 @@ section {
 .skills-grid h3 {
   font-size: 18px;
   margin-bottom: 8px;
-  color: #2d3436;
+  color: var(--h3-color);
 }
 
 .skills-grid ul li {
@@ -200,7 +201,7 @@ section {
   position: absolute;
   left: 0;
   color: var(--link-color);
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1;
 }
 
@@ -209,13 +210,13 @@ section {
     flex-direction: column;
     gap: 10px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 24px auto;
 }
 
 .contact-form input, .contact-form textarea {
     box-sizing: border-box;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--secondary-color);
     border-radius: 8px;
     font-size: 16px;
     width: 100%;
@@ -226,7 +227,7 @@ section {
     padding: 10px;
     border: none;
     background-color: var(--large-color);
-    color: white;
+    color: var(--main-color);
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
@@ -239,7 +240,6 @@ input, textarea, button {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
 }
-
 
 footer {
     margin-top: 40px;

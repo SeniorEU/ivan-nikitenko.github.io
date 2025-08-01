@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <meta name="description" content="Portfolio QA Automation inženýr Ivan Nikitenko v Češtině" />
 </head>
+
 <body>
   <header>
     <nav class="navbar">
@@ -30,6 +32,7 @@
       <div class="hero-buttons">
         <a class="large-button" href="mailto:ivan.nikitenko@gmail.com">Napsat e-mail</a>
         <a class="large-button secondary" href="../cv/Ivan_Nikitenko_QA_Engineer_CV.pdf" download target="_blank">Stáhnout CV</a>
+      
       </div>
       <ul class="links">
         <li><a href="https://github.com/SeniorEU" target="_blank" aria-label="GitHub"><img src="../images/github.svg" alt="GitHub" /></a></li>
@@ -44,6 +47,7 @@
 
     <section id="skills">
       <h2>Dovednosti</h2>
+      
       <div class="skills-grid">
         <div>
           <h3>Automatizace</h3>
@@ -53,6 +57,7 @@
             <li>Playwright</li>
           </ul>
         </div>
+
         <div>
           <h3>API a nástroje</h3>
           <ul>
@@ -61,6 +66,7 @@
             <li>Git / GitHub / Azure DevOps</li>
           </ul>
         </div>
+        
         <div>
           <h3>Management</h3>
           <ul>
@@ -69,6 +75,7 @@
             <li>Test plány / případy / reporty</li>
           </ul>
         </div>
+        
         <div>
           <h3>Frontend</h3>
           <ul>
@@ -81,12 +88,14 @@
     <section id="experience">
       <h2>Zkušenosti</h2>
       <ul class="experience-list">
-        <li><strong>QA Inženýr, Journals VŠTE ČB</strong> (čvn 2025 – dosud)<br />
-        Testování webového portálu akademických časopisů, kontrola UI, odpovědnosti a lokalizace.</li>
-        <li><strong>QA Inženýr, Fwollo</strong> (bře 2025 – srp 2025)<br />
-        Testování mobilní a webové aplikace Pulse Up!</li>
-        <li><strong>QA Inženýr, QALight Outsource</strong> (zář 2024 – čvn 2025)<br />
-        Manuální testování mobilních a webových aplikací, tvorba testovací dokumentace.</li>
+        <li><strong>QA Inženýr, Journals VŠTE ČB</strong> (čvn 2025 - dosud)<br />
+        Testování webového portálu akademických časopisů, kontrola UI, responzivity a lokalizace, tvorba formální testovací dokumentace.</li>
+        <li><strong>QA Inženýr, Fwollo</strong> (bře 2025 - srp 2025)<br />
+        Testování mobilní a webové aplikace Pulse Up!, zaměřeno na funkční, UI/UX, regresní a lokalizační testování pro iOS a Android.</li>
+        <li><strong>QA Inženýr, QALight Outsource</strong> (zář 2024 - čvn 2025)<br />
+        Manuální testování webových a mobilních aplikací. Vytvořeno více než 50 testovacích artefaktů, provedeno přes 60 funkčních a uživatelských testů.</li>
+        <li><strong>Vedoucí technické kvality a dodávek, Argus / Industrial Equipment</strong> (2007 – 2024)<br />
+        17+ let praxe v oblasti kontroly kvality, dokumentace dle norem ISO/GOST a mezinárodní distribuce. Vedení QA a logistiky pro společnosti Lincoln Electric (USA), Yamabiko Corp. (Japonsko).</li>
       </ul>
     </section>
 
@@ -100,12 +109,28 @@
       <p><strong>Email:</strong> <a href="mailto:ivan.nikitenko@gmail.com">ivan.nikitenko@gmail.com</a><br />
       <strong>Telefon:</strong> +420 728 935 848<br />
       <strong>Lokalita:</strong> Česká republika (Praha / České Budějovice)</p>
-      <form class="contact-form" action="https://formspree.io/f/xgvzzege" method="POST">
-        <input type="text" name="name" placeholder="Vaše jméno" required />
-        <input type="email" name="email" placeholder="Váš e-mail" required />
+
+      <form class="contact-form" action="https://formspree.io/f/xgvzzege" 
+      method="POST"
+      onsubmit="alert('Děkuji za vaši zprávu! Brzy se vám ozvu.');">
+
+      <label>
+        Your Name:
+        <input type="text" name="name" placeholder="Vaše jméno" required>
+      </label>
+
+      <label>
+        Your email:
+        <input type="email" name="email" placeholder="Váš E-mail" required>
+      </label>
+
+      <label>
+        Your message:
         <textarea name="message" placeholder="Vaše zpráva" required></textarea>
-        <button type="submit">Odeslat</button>
-      </form>
+      </label>
+      
+      <button type="submit">Send</button>
+    </form>
     </section>
   </main>
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,6 +32,7 @@
       <div class="hero-buttons">
         <a class="large-button" href="mailto:ivan.nikitenko@gmail.com">Mail me</a>
         <a class="large-button secondary" href="./cv/Ivan_Nikitenko_QA_Engineer_CV.pdf" download target="_blank">Download CV</a>
+      
       </div>
       <ul class="links">
         <li><a href="https://github.com/SeniorEU" target="_blank" aria-label="GitHub"><img src="./images/github.svg" alt="GitHub" /></a></li>
@@ -46,6 +48,7 @@
     <section id="skills">
       <h2>Skills</h2>
       <div class="skills-grid">
+        
         <div>
           <h3>Automation</h3>
           <ul>
@@ -54,6 +57,7 @@
             <li>Playwright</li>
           </ul>
         </div>
+        
         <div>
           <h3>API / Tools</h3>
           <ul>
@@ -62,6 +66,7 @@
             <li>Git / GitHub / Azure DevOps</li>
           </ul>
         </div>
+        
         <div>
           <h3>Management</h3>
           <ul>
@@ -70,6 +75,7 @@
             <li>Test Plans / Test Cases / Bug Reports</li>
           </ul>
         </div>
+        
         <div>
           <h3>Frontend</h3>
           <ul>
@@ -81,15 +87,16 @@
 
     <section id="experience">
       <h2>Experience</h2>
+      
       <ul class="experience-list">
-        <li><strong>QA Manual Engineer, Journals VŠTE ČB</strong> ()<br />
+        <li><strong>QA Manual Engineer, Journals VŠTE ČB</strong> (Jun 2025 - Present)<br />
         Testing academic journal portal (OJS), UI and responsive layout checks, localization, and formal test documentation.</li>
         <li><strong>QA Manual Engineer, Fwollo LLC</strong> (Mar 2025 - Aug 2025)<br />
         Testing Pulse Up! mobile/web apps, focusing on functional, UI/UX, regression and localization testing across iOS and Android.</li>
         <li><strong>QA Manual Engineer, QALight Outsource</strong> (Sep 2024 - Jun 2025)<br />
         Manual testing of responsive web and mobile apps. Created over 50 test artifacts and performed 60+ functional/usability tests.</li>
-        <li><strong>Head of Technical Quality & Delivery, Argus/Industrial Equipment</strong> (2007 - 2024)<br />
-        17+ years in quality control, ISO/GOST documentation, and international distribution. Led QA and logistics for Lincoln Electric, Yamabiko Corp.</li>
+        <li><strong>Head of Technical Quality & Delivery, Argus/Industrial Equipment</strong> (Nov 2007 - Sep 2024)<br />
+        17+ years in quality control, ISO/GOST documentation, and international distribution. Led QA and logistics for Lincoln Electric (USA), Yamabiko Corp. (Japan).</li>
       </ul>
     </section>
 
@@ -103,10 +110,26 @@
       <p><strong>Email:</strong> <a href="mailto:ivan.nikitenko@gmail.com">ivan.nikitenko@gmail.com</a><br />
       <strong>Phone:</strong> +420 728-935-848<br />
       <strong>Location:</strong> Czech Republic (České Budějovice / Praha), Office or Remote</p>
-      <form class="contact-form" action="https://formspree.io/f/xgvzzege" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" required></textarea>
+      
+      <form class="contact-form" action="https://formspree.io/f/xgvzzege" 
+      method="POST"
+      onsubmit="alert('Thank you for your message! I will get back to you soon.');">
+
+      <label>
+        Your Name:
+        <input type="text" name="name" placeholder="Your Name" required>
+      </label>
+
+      <label>
+        Your email:
+        <input type="email" name="email" placeholder="Your Email" required>
+      </label>
+
+      <label>
+        Your message:
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      </label>
+      
       <button type="submit">Send</button>
     </form>
     </section>
