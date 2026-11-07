@@ -6,7 +6,7 @@ Website: [ivan-nikitenko.com](https://ivan-nikitenko.com)
 
 I am the Managing Director (jednatel) of **FEROXO WELDING s.r.o.**, České Budějovice, the importer and distributor of SHINDAIWA (Yamabiko Corporation, Japan) diesel engine-driven welders and generators in the Czech Republic: [feroxo.cz](https://feroxo.cz).
 
-QA engineering is my personal interest. I studied it, worked on several QA projects in 2024-2025 and keep practising test automation. This site and the linked repositories are learning and practice projects.
+QA engineering is my personal interest. I studied it, worked on several QA projects in 2024-2026 and keep practising test automation. This site and the linked repositories are learning and practice projects.
 
 ## Tech stack I practise
 
@@ -18,7 +18,7 @@ QA engineering is my personal interest. I studied it, worked on several QA proje
 - **Test management**: TestRail, Jira
 - **Other**: HTML, CSS, JavaScript, Agile/Scrum
 
-## QA projects (2024-2025)
+## QA projects (2024-2026)
 
 - **Journals VŠTE ČB**: testing the academic journal system (OJS), UI, localization and formal documentation.
 - **Fwollo, Pulse Up! app**: web and mobile QA across iOS and Android.
